@@ -1,7 +1,7 @@
 [
   {
     "command": "navigate_to_definition",
-    "keys": ["ctrl+t", "ctrl+t"]
+    "keys": ["ctrl+]"]
   },
   {
     "command": "search_for_definition",
@@ -9,7 +9,7 @@
   },
   {
     "command": "jump_back",
-    "keys": ["ctrl+t", "ctrl+b"]
+    "keys": ["ctrl+["]
   },
   {
     "command": "jump_back",
