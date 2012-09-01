@@ -256,11 +256,6 @@ def scroll_to_tag(view, tag, hook=None):
 
         symbol_region = view.find(tag.symbol, look_from, sublime.LITERAL)
 
-        # select (
-        #     view,
-        #     (symbol_region or (
-        #       view.line(look_from + 1) if look_from else sublime.Region(0, 0))))
-
         select (view, sublime.Region(view.text_point(0, look_from + 1)))
 
         if hook: hook(view)
